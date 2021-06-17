@@ -18,6 +18,6 @@ sudo ln -s /path/original/libmkl_core.1.dylib <@rpath>/libmkl_core.1.dylib
 $rpath = /opt/intel/oneapi/compiler/2021.2.0/mac/compiler/lib # found by `otool -l /usr/local/bin/sex`
 /path/original/ = /opt/intel/oneapi/mkl/2021.2.0/lib/ # found by `find / -name 'libmkl_intel_lp64.1.dylib' 2>/dev/null`
 ```
-in my case, because setting up *Intel* environment by sourcing `/opt/intel/oneapi/setvars.sh` was not extended to the IDL intereter's environment somehow.
+in my case, because setting up *Intel* environment by sourcing `/opt/intel/oneapi/setvars.sh` was not extended to the IDL intereter's environment I guess.
 
 
