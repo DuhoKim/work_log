@@ -21,3 +21,10 @@ $rpath = /opt/intel/oneapi/compiler/2021.2.0/mac/compiler/lib # found by `otool 
 in my case, because setting up *Intel* environment by sourcing `/opt/intel/oneapi/setvars.sh` was not extended to the IDL intereter's environment I guess.
 
 
+### Running GALAPAGOS2
+
+Followed [this link](https://github.com/MegaMorph/galapagos/blob/master/EXAMPLE_AND_README/USAGE.md) 
+
+#### Trouble shooting
+1. Multi-extension Fits file was not supported. -> Splitted into single fits file using 
+2. 
