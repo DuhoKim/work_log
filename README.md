@@ -26,5 +26,6 @@ in my case, because setting up *Intel* environment by sourcing `/opt/intel/oneap
 Followed [this link](https://github.com/MegaMorph/galapagos/blob/master/EXAMPLE_AND_README/USAGE.md) 
 
 #### Trouble shooting
-1. Multi-extension Fits file was not supported. -> Splitted into single fits file using 
-2. 
+1. Multi-extension Fits file was not supported. -> Splitted into single fits file using [splitfits.py](https://gist.github.com/vterron/24d904f4711006b07997) 
+2. The model PSF is needed. -> Extracted PSF using [PSFEx](https://www.astromatic.net/software/psfex/) 
+3. 
