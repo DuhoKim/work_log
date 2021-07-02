@@ -27,5 +27,5 @@ Followed [this link](https://github.com/MegaMorph/galapagos/blob/master/EXAMPLE_
 
 #### Trouble shooting
 1. Multi-extension Fits file was not supported. -> Splitted into single fits file using [splitfits.py](https://gist.github.com/vterron/24d904f4711006b07997) 
-2. The model PSF is needed. -> Extracted PSF using [PSFEx](https://www.astromatic.net/software/psfex/) 
+2. The model PSF is needed. -> Extracted PSF using [PSFEx](https://www.astromatic.net/software/psfex/), and save hdu[1].data[0][0][0] of the python-read model 'psf'.
 3. 
