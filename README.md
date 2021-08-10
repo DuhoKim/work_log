@@ -31,4 +31,7 @@ Followed [this link](https://github.com/MegaMorph/galapagos/blob/master/EXAMPLE_
 - The model PSF is needed. -> Extracted PSF using [PSFEx](https://www.astromatic.net/software/psfex/), and save hdu[1].data[0][0][0] of the python-read model 'psf'.
 > sex [input_fits] (to generate input catalog for PSFEx)
 > psfex [sex generated output catalog]
->  
+>> hdu = fits.open('xxx.psf')
+>> data = hdu[1].data[0][0][0]
+>> header = hdu[0].header
+>> fits.writeto('xxx_psf.fits', data, header)
