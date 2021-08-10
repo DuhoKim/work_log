@@ -41,3 +41,6 @@ Followed [this link](https://github.com/MegaMorph/galapagos/blob/master/EXAMPLE_
 >> header = hdu[0].header
 >> 
 >> fits.writeto('xxx_psf.fits', data, header)
+
+- The weight map should be converted to be rms map (e.g., [This code](https://github.com/DuhoKim/py_codes/blob/master/weight2rms.py)).
+
